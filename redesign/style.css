@@ -1,0 +1,236 @@
+body {
+    font-family: "Overpass", serif;
+}
+
+#brand-title {
+    color: #852614
+}
+
+/* nav ul li a:hover, nav ul li a:focus {
+    background-color: white;
+    font-weight: bold;
+  } */
+
+/* .collapse {
+    display: block;
+} */
+
+#nav_header:hover, #nav_header:focus {
+    font-weight: bold;
+}
+
+.nav_icon {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.nav_icon button:hover, .nav_icon button:focus {
+    color: white;
+    background-color: #d8cdb5;
+}
+
+nav button:hover, nav button:focus {
+    background-color: white;
+    font-weight: bold;
+}
+
+h1 {
+    margin-left: 80px;
+}
+
+.people {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../images/main1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(70vh - 40px);
+}
+
+h3 {
+    color: #4F4F4F;
+    font-size: 25px;
+    text-align: start;
+    margin: 50px;
+}
+
+.wineBottle {
+    width: 6rem;
+    height: auto;
+}
+
+h5 {
+    margin: 10px;
+}
+
+#wine_btn {
+    padding: 20px;
+}
+
+.addCart button:hover, .addCart button:focus {
+    color: white;
+    background-color: #d8cdb5;
+    display: inline;
+}
+
+#adblock_container {
+    margin: 50px;
+}
+
+#ad_block1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(../images/adblock1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: inherit;
+    /* margin: 5px; */
+}
+
+#ad_block1:hover {
+    transform: scale(0.8);
+    /* -webkit-filter: brightness(70%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease; */
+    transition: all 0.8s ease;
+}
+
+.btn-lg {
+    background-color: #d8cdb5;
+    margin-bottom: 50px;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #CAB181;
+}
+
+#ad_block2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(../images/adblock2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: inherit;
+    /* margin: 5px; */
+}
+
+#ad_block2:hover {
+    transform: scale(0.8);
+    /* -webkit-filter: brightness(70%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease; */
+    transition: all 0.8s ease;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* margin-bottom: 20px; */
+    height: 65%;
+}
+
+#bottom_info {
+    background-color: #d8cdb5;
+    padding: 50px;
+    /* width: 50% */
+    /* height: 100%; */
+}
+
+#bottom_info_container {
+    /* margin: 50px; */
+}
+
+
+#bottom_info_text {
+    /* padding-left: 50px;
+    padding-top: 50px; */
+    margin-bottom: 20px;
+}
+
+#bottom_title {
+    color: #852614;
+    font-size: 25px;
+    align-items: baseline;
+    /* padding-left: 50px;
+    padding-top: 50px; */
+}
+
+.add_contact {
+    padding-bottom: 20px;
+}
+
+.socials {
+    padding-bottom: 20px;
+}
+
+.social_icon {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.address {
+    display: flex;
+}
+
+.address p {
+    margin: 0px;
+    padding: 6px;
+}
+
+.address button:hover, .social_icon button:focus {
+    color: white;
+    background-color: #d8cdb5;
+}
+
+/* .contact {
+    display: flex;
+} */
+
+.social_icon button:hover, .social_icon button:focus {
+    color: white;
+    background-color: #d8cdb5;
+}
+
+/* .address a:hover i {
+    background-color: white;
+    font-weight: bold;
+  } */
+
+/* .bi:hover, .bi:focus { */
+    /* color: #CAB181; */
+    /* filter: brightness(85%); */
+    /* font-weight: bold; */
+/* } */
+
+#bottom_info {
+    background-color: #d8cdb5;
+    padding: 50px;
+    /* width: 50% */
+    /* height: 100%; */
+}
+
+#signup {
+    background-color: #AEAEAE;
+}
+
+#signup_components {
+    padding: 50px;
+}
+
+h6.stay {
+    color: white;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.form-inline {
+    display: inline-flex;
+}
+
+.btn-md {
+    background-color: #d8cdb5;
+}
