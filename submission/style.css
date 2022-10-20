@@ -1,0 +1,63 @@
+/* body {
+    font-family: "Overpass", serif;
+    height: 100%
+} */
+
+html,body {
+    font-family: "Overpass", serif;
+    height: 100%;
+}
+
+.navigation {
+    margin: 10px;
+}
+
+/* .container-fluid {
+    height: 100%;
+} */
+
+#sidebar {
+    /* height: 100%; */
+    background: #b8cfec;
+    /* color: #828c84; */
+    /* display: inline-block; */
+    /* justify-content: space-around; */
+    /* align-items: space-around; */
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    
+}
+
+/* #sidebar_idv {
+    align-items: stretch;
+} */
+
+#main_content {
+    padding-left: 20px;
+    padding-right: 60px;
+}
+
+#website h3 {
+    margin-top: 30px;
+}
+
+h3 {
+    margin-top: 50px;
+    color: #2f387b
+}
+
+h5 {
+    margin-top: 30px;
+}
+
+p {
+    color: #63899e
+}
+
+#responsive {
+    margin-bottom: 80px;
+}
+
+/* #idv {
+    margin-top: 50rem;
+} */
