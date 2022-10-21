@@ -38,10 +38,12 @@
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 		<title>Responsive Redesign</title>
 	</head>
+
 	<body>
+		<!-- Top Navigation Bar -->
 		<nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #d8cdb5">
 			<div class="container-fluid">
-
+				<!-- Left side of the navigation bar with icons -->
 				<div class="nav_icon">
 					<button type="button" class="btn" alt="phone button to call">
 						<i class="bi bi-telephone"></i>
@@ -54,29 +56,10 @@
 					</button>
 				</div>
 
-				<!-- <div class="nav-icon" id="nav-icon">
-					<ul class="navbar-nav" >
-						<li class="nav-item">
-							<a class="nav-link">
-								<i class="bi bi-telephone-fill"></i>
-							</a>
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link">
-								<i class="bi bi-calendar-event"></i>
-							</a>
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link">
-								<i class="bi bi-bag"></i>
-							</a>
-						  </li>
-					</ul>
-				</div> -->
-			
+				<!-- Middle of the navigation bar: "Diamond Hill Vineyards" in red -->
 				<a class="navbar-brand mx-auto" id="brand-title" href="#">Diamond Hill Vineyards</a>
 
-
+				<!-- Right side of the navigation bar that collapses when page is shrunk -->
 				<button class="navbar-toggler" type="button"
 					data-toggle="collapse" data-target="#navbarNavAltMarkup"
 					aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -86,7 +69,6 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 					<div class="navbar-nav ml-auto align-items-end ">
-						<!-- align-items-end -->
 						<a id="nav_header" class="nav-item nav-link active" href="#">About Us</a>
 						<a id="nav_header" class="nav-item nav-link active" href="#">Visit</a>
 						<a id="nav_header" class="nav-item nav-link active" href="#">Winery</a>
@@ -94,38 +76,27 @@
 						<a id="nav_header" class="nav-item nav-link active" href="#">Custom Labels</a>
 					</div>
 				</div>
-				
-				<!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarMenu">
-						<ul class="navbar-nav ms-auto"> 
-							<li class="nav-item"><a class="nav-link" aria-current="page" href="about">About Us</a></li>
-							<li class="nav-item"><a class="nav-link" href="visit">Visit</a></li>
-							<li class="nav-item"><a class="nav-link" href="winery">Winery</a></li>
-							<li class="nav-item"><a class="nav-link" href="events">Events</a></li>
-							<li class="nav-item"><a class="nav-link" href="customlabels">Custom Labels</a></li>
-						</ul>
-					</div>
-				</div> -->
-
 			</div>
 		</nav>
 
+		<!-- Welcome to Diamond Hill Vineyards with big picture -->
 		<div class="d-flex flex-column people justify-content-end align-items-start">
 			<h1 class="text-light display-1">Welcome to Diamond Hill Vineyards</h1>
 		</div>
 
+		<!-- Text -->
 		<h3>
 			Diamond Hill Vineyards is a second generation family run vineyard and winery set in over 30 acres of vineyards, gardens, and woodlands in Cumberland, RI.
 		</h3>
 
+		<!-- the wine bottles where you can add/subtract from cart -->
 		<div id="wine" class="wines">
 			<div class="container">
 				<div class="row">
 					<div id="wine_btn" class="col-12 col-sm-8 col-md-6 col-lg-3 justify-content-center text-center">
 						<img class="wineBottle" src="../images/cabernet-merlot.png" alt="Shiraz Merlot">
 						<h5>Shiraz Merlot</h5>
+						<h5>$15</h5>
 						<div class="input-group addCart">
 							<span class="input-group-btn">
 								<button type="button" class="btn btn-default btn-number" alt="subtract from cart">
@@ -144,6 +115,7 @@
 					<div id="wine_btn" class="col-12 col-sm-8 col-md-6 col-lg-3 justify-content-center text-center">
 						<img class="wineBottle" src="../images/shiraz-rose.png" alt="Shiraz Rose">
 						<h5>Shiraz Rose</h5>
+						<h5>$19</h5>
 						<div class="input-group addCart">
 							<span class="input-group-btn">
 								<button type="button" class="btn btn-default btn-number" alt="subtract from cart">
@@ -161,6 +133,7 @@
 					<div id="wine_btn" class="col-12 col-sm-8 col-md-6 col-lg-3 justify-content-center text-center">
 						<img class="wineBottle" src="../images/chardonnay.png" alt="Chardonnay">
 						<h5>Chardonnay</h5>
+						<h5>$20</h5>
 						<div class="input-group addCart">
 							<span class="input-group-btn">
 								<button type="button" class="btn btn-default btn-number" alt="subtract from cart">
@@ -178,6 +151,7 @@
 					<div id="wine_btn" class="col-12 col-sm-8 col-md-6 col-lg-3 justify-content-center text-center">
 						<img class="wineBottle" src="../images/cabernet-merlot.png" alt="Carbenet Merlot">
 						<h5>Carbenet Merlot</h5>
+						<h5>$20</h5>
 						<div class="input-group addCart">
 							<span class="input-group-btn">
 								<button type="button" class="btn btn-default btn-number" alt="subtract from cart">
@@ -196,29 +170,29 @@
 			</div>
 		</div>
 
+		<!-- Visit Us + Celebrate blocks -->
 		<div id="adblock_container" class="d-flex flex-column">
 			<div id="adblocks" class="row">
 				<div id="ad_block1" class="col-12 col-sm-12 col-md-6 col-lg-6 justify-content-center text-center">
-					<!-- <img src="../images/adblock1.jpeg" alt="wine glasses in an array"> -->
-					<h2 class="text-light display-3 adtext">Visit Us: Reserve Your Wine Tasting</h2>
+					<h2 class="text-light display-3 adtext">Reserve Your Wine Tasting</h2>
 					<button class="btn btn text-light btn-lg">Reservations</button>
-					<!-- <a href="#" class="btn text-light btn-lg">Reservations</a> -->
 				</div>
 				<div id="ad_block2" class="col-12 col-sm-12 col-md-6 col-lg-6 justify-content-center text-center">
-					<!-- <img src="../images/adblock2.jpg" alt="wine glasses in an array"> -->
 					<h2 class="text-light display-3 adtext">Celebrate. Convene. Entertain.</h2>
 					<button class="btn btn text-light btn-lg">Contact Us</button>
-					<!-- <a href="#" class="btn text-light btn-lg">Contact Us</a> -->
 				</div>
 			</div>
 		</div>
 
+		<!-- Text -->
 		<h3>
 			The Berntson family planted their first vines in 1976 and now have 4 acres of Pinot Noir growing. We invite you to spend a relaxing afternoon to unwind with a glass of wine in the lovely settings. The site includes tours, wine & cheese tastings, a gift shop, and facilities for special functions.
 		</h3>
 
+		<!-- The block at the very end -->
 		<div id="bottom_info" class="d-flex flex-column">
 			<div class="row">
+				<!-- block on the left with contact and address -->
 				<div id="bottom_info_text" class="col-12 col-sm-12 col-md-12 col-lg-6">
 					<p id="bottom_title">Diamond Hill Vineyards</p>
 					<div class="add_contact">
@@ -256,6 +230,7 @@
 					<h6>Please enjoy responsibly. All rights reserved.</h6>
 				</div>
 
+				<!-- block on the right in gray -->
 				<div id="signup" class="col-12 col-sm-12 col-md-12 col-lg-6">
 					<div id="signup_components">
 						<h6 class="stay">Stay In The Know</h6>
