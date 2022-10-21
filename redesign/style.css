@@ -97,11 +97,18 @@ h5 {
 }
 
 .btn-lg {
+    color: white;
     background-color: #d8cdb5;
     margin-bottom: 50px;
 }
 
+/* .btn-lg:hover, .btn-lg:focus {
+    color: white;
+    background-color: #CAB181;
+} */
+
 .btn:hover, .btn:focus {
+    color: white;
     background-color: #CAB181;
 }
 
@@ -181,7 +188,7 @@ h2 {
     padding: 6px;
 }
 
-.address button:hover, .social_icon button:focus {
+.address button:hover, .address button:focus {
     color: white;
     background-color: #d8cdb5;
 }
@@ -232,5 +239,6 @@ h6.stay {
 }
 
 .btn-md {
+    color: white;
     background-color: #d8cdb5;
 }
